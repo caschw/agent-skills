@@ -1,0 +1,31 @@
+name: Skill proposal
+description: Propose a new skill or a significant change to one.
+labels: [enhancement]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Skill name
+      description: Lowercase letters, digits and hyphens.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What task does this help agents with?
+    validations:
+      required: true
+  - type: textarea
+    id: generic
+    attributes:
+      label: Why is it generic?
+      description: Explain how it applies across repositories and agent hosts.
+    validations:
+      required: true
+  - type: textarea
+    id: triggers
+    attributes:
+      label: When should agents use it?
+    validations:
+      required: true

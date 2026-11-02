@@ -1,0 +1,35 @@
+# Intake index
+
+Requirements this repository places on content supplied by other domains (other
+repositories, agents, or people). Used by the `domain-collaboration` skill.
+
+This index **points to sources; it does not copy values.** Always read the linked
+source for current values. If a link is broken, stop and run an intake refresh.
+
+- Approved on: {{YYYY-MM-DD}}
+- Approved by: repository owner
+- Scope: {{what kinds of content this repository receives}}
+
+## How to use
+
+1. Find the categories your exchange's scope touches.
+2. Read every linked source and derive concrete acceptance criteria.
+3. Cite the source for each criterion in your REQUEST.
+
+## Categories
+
+### {{Category name}}
+
+{{One-sentence description of what is required and when.}}
+
+| Requirement | Enforcement | Sources |
+| ----------- | ----------- | ------- |
+| {{short statement}} | enforced \| documented \| inferred | [{{label}}]({{relative/path}}) |
+
+## Approvals and gates
+
+{{Owner-only approvals that apply to received content, with links to the rule.}}
+
+## Change log
+
+- {{YYYY-MM-DD}}: {{initialized | refreshed}}; {{summary}}

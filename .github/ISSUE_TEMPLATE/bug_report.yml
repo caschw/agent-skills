@@ -1,0 +1,31 @@
+name: Bug report
+description: A skill behaved incorrectly or its docs are wrong.
+labels: [bug]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill
+      placeholder: domain-collaboration
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: Agent host and version
+      placeholder: GitHub Copilot app 1.x, Copilot CLI, Claude Code, ...
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Include the prompt and relevant agent output. Remove secrets and private data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
