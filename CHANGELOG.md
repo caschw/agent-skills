@@ -11,6 +11,13 @@ independently with `metadata.version` in its `SKILL.md`.
 - `domain-collaboration` 0.1.0: exchange protocol for agents in different
   repositories, whitelisted file handoffs, and intake index initialization and refresh.
 - Repository validator, CI workflow, and community files.
+- `AGENTS.md` and `.github/copilot-instructions.md` for agents working in this
+  repository, with references to the skill standards.
+
+### Fixed
+
+- The validator now checks Markdown links under `.github/`; it previously skipped
+  every path starting with `.git`.
 
 ### Changed
 

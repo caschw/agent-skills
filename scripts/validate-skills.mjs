@@ -65,7 +65,7 @@ function checkLinks(file, text) {
 function markdownFiles(dir) {
   return readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
     const full = join(dir, entry.name);
-    if (entry.isDirectory()) return entry.name === 'node_modules' || entry.name.startsWith('.git') ? [] : markdownFiles(full);
+    if (entry.isDirectory()) return entry.name === 'node_modules' || entry.name === '.git' ? [] : markdownFiles(full);
     return entry.name.endsWith('.md') ? [full] : [];
   });
 }
