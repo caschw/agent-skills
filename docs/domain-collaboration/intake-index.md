@@ -39,7 +39,9 @@ Each category has requirements with:
   (written rule), or `inferred` (seen only in existing content);
 - links to sources.
 
-Plus an approvals-and-gates section and a change log with `Approved on` date.
+Plus an approvals-and-gates section, known limitations (unresolved contradictions and
+gaps), and a change log with the `Approved on` date. If the owner cannot respond, the
+index is written as a draft with `Approved on: pending`; silence is never approval.
 
 Common categories (use only those your repository actually has):
 Identity, Distribution, Visual assets, Copy, Privacy and data handling, Support,

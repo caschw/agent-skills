@@ -49,10 +49,14 @@ them. That keeps the index correct when a redesign changes values.
 5. **Present for approval.** Group by category. Ask the user to approve, edit, or reject
    each category (one question per category if the host supports structured choices).
    Include counts per enforcement level so weak areas are visible.
+   If the user cannot respond (for example an unattended run), do not treat silence as
+   approval: write the index as a **draft pending owner approval** with
+   `Approved on: pending`, and report that approval is still required.
 6. **Write the index** from
    [../assets/intake-index.template.md](../assets/intake-index.template.md) with only
    approved categories. Each entry links to its sources with repository-relative links.
-   Record `Approved on: <date>` and `Approved by: repository owner`.
+   Record `Approved on: <date>` and `Approved by: repository owner`. List unresolved
+   contradictions and gaps under **Known limitations** instead of resolving them.
 7. **Protect it.** Recommend (or add, if the prompt authorizes repository changes) a test
    or check that every linked path in the index exists, so moved sources fail loudly.
 8. **Report**: approved categories, rejected or deferred items, contradictions, and

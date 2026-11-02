@@ -6,7 +6,8 @@ repositories, agents, or people). Used by the `domain-collaboration` skill.
 This index **points to sources; it does not copy values.** Always read the linked
 source for current values. If a link is broken, stop and run an intake refresh.
 
-- Approved on: {{YYYY-MM-DD}}
+- Status: {{approved | draft pending owner approval}}
+- Approved on: {{YYYY-MM-DD | pending}}
 - Approved by: repository owner
 - Scope: {{what kinds of content this repository receives}}
 
@@ -29,6 +30,10 @@ source for current values. If a link is broken, stop and run an intake refresh.
 ## Approvals and gates
 
 {{Owner-only approvals that apply to received content, with links to the rule.}}
+
+## Known limitations
+
+{{Contradictions or gaps found during the scan, left for the owner to resolve.}}
 
 ## Change log
 

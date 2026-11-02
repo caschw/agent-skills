@@ -3,7 +3,7 @@ name: domain-collaboration
 description: Coordinates authorized work between agents that own different repositories or domains (for example a website agent and a product/app agent). Use when a prompt asks you to work with, coordinate with, request content from, or deliver content to another agent or repository; when onboarding a product, refreshing assets after a release, or propagating a redesign across repos; or when asked to initialize, refresh, or check a repository's intake index of requirements.
 license: MIT
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 # Domain collaboration
